@@ -1,0 +1,17 @@
+Preconditions: 
+1. Java must be installed.
+2. Eclipse with testNG plugin.
+
+
+How to run: (We can also run directly using Pom.xml, But I kept separately for clear understanding))
+1. Download the repository from the git and import to eclipse.
+2. Right click on project -> Maven -> Update project.
+3. Go to com.quipu.UITest package.
+4. Open any of the test files-> Right click -> Run as TestNG (triggers the API tests).
+
+
+Note: We can improve the tests by:
+1. Separating the methods into different pages.
+2. Adding necessary logs.
+3. Creating testNG.xml file and include into the pom.xml.
+4. Capturing the screenshots on failure.
